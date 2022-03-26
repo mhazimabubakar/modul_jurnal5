@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul5_1302204092", "modul5_1302204092\modul5_1302204092.csproj", "{B0A3A5DB-55C5-4F30-86F6-E78477CB9695}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul5_1302204092", "modul5_1302204092\modul5_1302204092.csproj", "{DED43829-EC86-4827-813B-A2CC28568085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0A3A5DB-55C5-4F30-86F6-E78477CB9695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0A3A5DB-55C5-4F30-86F6-E78477CB9695}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0A3A5DB-55C5-4F30-86F6-E78477CB9695}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0A3A5DB-55C5-4F30-86F6-E78477CB9695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED43829-EC86-4827-813B-A2CC28568085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED43829-EC86-4827-813B-A2CC28568085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED43829-EC86-4827-813B-A2CC28568085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED43829-EC86-4827-813B-A2CC28568085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D64E1081-4C60-4113-9ED3-816DAAD912C8}
+		SolutionGuid = {54B963E4-1F42-4DAE-9772-2ABAEF67B09D}
 	EndGlobalSection
 EndGlobal
