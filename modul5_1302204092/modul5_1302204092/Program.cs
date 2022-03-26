@@ -34,8 +34,6 @@ namespace modul5_1302204092
             objUser.AddVideo(objVideo8);
             objUser.AddVideo(objVideo9);
             objUser.AddVideo(objVideo10);
-
-            objUser.PrintAllVideoPlayCount();
         }
     }
 }

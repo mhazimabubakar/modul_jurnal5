@@ -18,7 +18,10 @@ namespace modul5_1302204092
             Random random = new Random();
             this.id = random.Next(0, 10000);
 
+            System.Diagnostics.Debug.Assert(username != null && username.Length <= 100, "Username tidak boleh null dan maksimal 100 karakter");
             this.Username = username;
+
+            System.Diagnostics.Debug.Assert(uploadedVideos != null && uploadedVideos <= int.MaxValue, "Video tidak boleh null dan playCount kurang dari integer maksimum");
             this.uploadedVideos = new List<SayaTubeVideo>();
         }
 

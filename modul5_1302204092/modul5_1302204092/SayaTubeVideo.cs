@@ -28,7 +28,7 @@ namespace modul5_1302204092
             Random random = new Random();
             this.id = random.Next(0, 10000);
 
-            System.Diagnostics.Debug.Assert(title != null && title.Length <= 100, "Title tidak boleh null dan maksimal 100 karakter");
+            System.Diagnostics.Debug.Assert(title != null && title.Length <= 200, "Title tidak boleh null dan maksimal 200 karakter");
             this.title = title;
 
             this.playCount = 0;
@@ -38,7 +38,7 @@ namespace modul5_1302204092
         {
             //prefetch pengkondisian
             //Debug.Assert(this.playCount <= int.MinValue);
-            System.Diagnostics.Debug.Assert(jumlah <= 10000000, "Maksimal memasukkan 10.000.000 pemanggilan");
+            System.Diagnostics.Debug.Assert(jumlah > 0 && jumlah <= 25000000, "Maksimal memasukkan 25.000.000 pemanggilan dan bukan negatif");
 
             //exception
             int hasil;
